@@ -27,9 +27,17 @@ var modal = document.querySelector(".modal");
 
 var spanclass = document.querySelector(".flag");
 
+spanclass.addEventListener("mouseover", (e) => {
+  spanclass.style.textDecoration = "underline";
+});
+
+spanclass.addEventListener("mouseout", (e) => {
+  spanclass.style.textDecoration = "none";
+});
+
 spanclass.addEventListener("click", (e) => {
   location.replace(
-    "https://github.com/sridhar-5/induction.io-website/blob/main/flag.html"
+    "https://sridhar-5.github.io/induction.io-website/flag.html"
   );
 });
 // When the user clicks anywhere outside of the modal, close it
