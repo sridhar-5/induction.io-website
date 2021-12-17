@@ -37,7 +37,7 @@ spanclass.addEventListener("mouseout", (e) => {
 
 spanclass.addEventListener("click", (e) => {
   location.replace(
-    "https://sridhar-5.github.io/induction.io-website/flag.html"
+    "https://sridhar-5.github.io/induction.io-website/" + "flag.html"
   );
 });
 // When the user clicks anywhere outside of the modal, close it
