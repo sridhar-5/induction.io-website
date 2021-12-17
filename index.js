@@ -25,7 +25,13 @@ terms.addEventListener("mouseout", (e) => {
 // Get the modal
 var modal = document.querySelector(".modal");
 
-modal;
+var spanclass = document.querySelector(".flag");
+
+spanclass.addEventListener("click", (e) => {
+  location.replace(
+    "https://github.com/sridhar-5/induction.io-website/blob/main/flag.html"
+  );
+});
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modal) {
